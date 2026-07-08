@@ -1,4 +1,4 @@
-# THEKEY Community Forum — Saved Posts
+# Community Forum — Saved Posts
 
 A small full-stack slice for a course discussion forum with end-to-end Saved Posts.
 
