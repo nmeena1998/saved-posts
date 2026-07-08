@@ -1,0 +1,17 @@
+{
+  "name": "thekey-saved-posts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install",
+    "db:migrate": "npm -w server run db:migrate",
+    "db:seed": "npm -w server run db:seed",
+    "dev": "concurrently "npm -w server run dev" "npm -w web run dev"",
+    "dev:server": "npm -w server run dev",
+    "dev:web": "npm -w web run dev",
+    "test": "npm -w server test",
+    "typecheck": "npm -w server run typecheck && npm -w web run typecheck"
+  },
+  "workspaces": ["server", "web"],
+  "devDependencies": {"concurrently": "^9.1.0"}
+}
